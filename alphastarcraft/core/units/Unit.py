@@ -1,6 +1,21 @@
 import numpy as np 
 
 class Unit:
+    '''
+    Definition of all information about the unit
+
+    + Construction Site Number
+    + Requires
+    + Cost: [Crystal, Gas, Supply]
+    + Life
+    + Abilities: [Attacks, Defenses] (Attacks: [Ground, Air])
+    + Build Time
+    + Equipments: [Attacks, Defenses]
+    + Sight
+    + Velocity, Maxvelocity, Acceleration
+    + IsAirAttack, IsFly
+    + Info
+    '''
     def __init__(self,position,velocity,maxvelocity,life,
                 cost,size,ability,
                 is_attackair,
