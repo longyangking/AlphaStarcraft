@@ -9,4 +9,8 @@ class Player:
     + Name
     + Race
     '''
-    def __init__(self):
+    def __init__(self,race):
+        self.race = race
+
+    def play(self):
+        
